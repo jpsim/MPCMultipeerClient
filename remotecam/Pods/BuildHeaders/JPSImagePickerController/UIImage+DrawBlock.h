@@ -1,0 +1,1 @@
+../../JPSImagePickerController/JPSImagePickerController/UIImage+DrawBlock.h

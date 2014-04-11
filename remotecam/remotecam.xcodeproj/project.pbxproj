@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0707D3E460764F1EB947B1F4 /* JPSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E9065D901B4460BC066D31 /* JPSAppDelegate.m */; };
+		3F215D2BFF9D4AC388547D35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0573BC50BC34A3CAC4F4EEA /* Images.xcassets */; };
+		7B4327C641964862A5C347DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8ED25C336954AC598735FDD /* Foundation.framework */; };
+		8B49D58697DF45A6B9871324 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9D71C8F1C84DDABB6B6ECD /* main.m */; };
+		DFC2085E9C0743F880965075 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B13C56F619164B6084E66E38 /* libPods.a */; };
+		E89D128418F8379900195A53 /* JPSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E89D127F18F8379900195A53 /* JPSMainViewController.m */; };
+		E89D128518F8379900195A53 /* JPSRemoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E89D128118F8379900195A53 /* JPSRemoteViewController.m */; };
+		E89D128618F8379900195A53 /* JPSCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E89D128318F8379900195A53 /* JPSCameraViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6EED85476144706835D453A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E075C8A4FE4436E997C7FF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 021ADEE88CC54CA8A855B8DC;
+			remoteInfo = remotecam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012F33EA2BF34E11B07D2D91 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09E9065D901B4460BC066D31 /* JPSAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JPSAppDelegate.m; sourceTree = "<group>"; };
+		84D70C5EC71D4FA6A4FD2629 /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
+		909E09F38E7B450B9739B5BA /* remotecam-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "remotecam-Info.plist"; sourceTree = "<group>"; };
+		A0573BC50BC34A3CAC4F4EEA /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9F0400D27BD4185AD417E2B /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
+		B13C56F619164B6084E66E38 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8ED25C336954AC598735FDD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD4190E6AEBF4D84BF4143E6 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		D88691B40E4940F4B4B9B989 /* remotecam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = remotecam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9D71C8F1C84DDABB6B6ECD /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF104BD6FE374D21B374975C /* JPSAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JPSAppDelegate.h; sourceTree = "<group>"; };
+		E89D127E18F8379900195A53 /* JPSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSMainViewController.h; sourceTree = "<group>"; };
+		E89D127F18F8379900195A53 /* JPSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSMainViewController.m; sourceTree = "<group>"; };
+		E89D128018F8379900195A53 /* JPSRemoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSRemoteViewController.h; sourceTree = "<group>"; };
+		E89D128118F8379900195A53 /* JPSRemoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSRemoteViewController.m; sourceTree = "<group>"; };
+		E89D128218F8379900195A53 /* JPSCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSCameraViewController.h; sourceTree = "<group>"; };
+		E89D128318F8379900195A53 /* JPSCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSCameraViewController.m; sourceTree = "<group>"; };
+		F63FD0F4ED4E469E8F0ADF3B /* remotecam-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "remotecam-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD74505439564A9593F2ED9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B4327C641964862A5C347DE /* Foundation.framework in Frameworks */,
+				DFC2085E9C0743F880965075 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCAB2379D6545A7B6C1DC25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A77C72D6EBB4C95965AF9C6 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		100CB4403E6D4CD7975DEF3E /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4275D4393FE434EAECAED25 /* Resources */,
+				0A77C72D6EBB4C95965AF9C6 /* Tests */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		208B490C06324D52BBB40BCC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B8ED25C336954AC598735FDD /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		26BFE6B0BB6F4114B808227F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2EBA527F1B68457CBC059540 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		47B05782C3C14DF6918B089D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		49CF780C9A7E4C37BA03BEBC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		55E106B8E8784E7DA7313CD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D88691B40E4940F4B4B9B989 /* remotecam.app */,
+				012F33EA2BF34E11B07D2D91 /* UnitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		666AAF0BB1694899A9C6FDA7 /* remotecam */ = {
+			isa = PBXGroup;
+			children = (
+				E277BD0F447D49E2AE0CD380 /* Categories */,
+				C9408A480F3141E58D82CE72 /* Classes */,
+				D972D5AE69AD4596A6A22598 /* Constants */,
+				CCEE72CB1F8B476FA5562A3C /* Resources */,
+			);
+			path = remotecam;
+			sourceTree = "<group>";
+		};
+		954AB9D9C8E440ED9C13FAC9 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				DF104BD6FE374D21B374975C /* JPSAppDelegate.h */,
+				09E9065D901B4460BC066D31 /* JPSAppDelegate.m */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		C3F3D3D4294D47BA8AE33A2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				208B490C06324D52BBB40BCC /* iOS */,
+				B13C56F619164B6084E66E38 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4275D4393FE434EAECAED25 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84D70C5EC71D4FA6A4FD2629 /* UnitTests-Info.plist */,
+				A9F0400D27BD4185AD417E2B /* UnitTests-Prefix.pch */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C580A3E4284F4607ABA8F1B2 /* Other-Sources */ = {
+			isa = PBXGroup;
+			children = (
+				909E09F38E7B450B9739B5BA /* remotecam-Info.plist */,
+				F63FD0F4ED4E469E8F0ADF3B /* remotecam-Prefix.pch */,
+				DA9D71C8F1C84DDABB6B6ECD /* main.m */,
+			);
+			path = "Other-Sources";
+			sourceTree = "<group>";
+		};
+		C9408A480F3141E58D82CE72 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2EBA527F1B68457CBC059540 /* API */,
+				49CF780C9A7E4C37BA03BEBC /* Controllers */,
+				EFD3EEF4198640ED9ED9E9CA /* DataSources */,
+				954AB9D9C8E440ED9C13FAC9 /* Delegates */,
+				47B05782C3C14DF6918B089D /* Models */,
+				F4C74F66DF444BCEBDF3CAC0 /* ViewControllers */,
+				26BFE6B0BB6F4114B808227F /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CCEE72CB1F8B476FA5562A3C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A0573BC50BC34A3CAC4F4EEA /* Images.xcassets */,
+				C580A3E4284F4607ABA8F1B2 /* Other-Sources */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D972D5AE69AD4596A6A22598 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E277BD0F447D49E2AE0CD380 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		E687C1ABBCD644CF900DCEAC = {
+			isa = PBXGroup;
+			children = (
+				666AAF0BB1694899A9C6FDA7 /* remotecam */,
+				100CB4403E6D4CD7975DEF3E /* UnitTests */,
+				C3F3D3D4294D47BA8AE33A2C /* Frameworks */,
+				55E106B8E8784E7DA7313CD7 /* Products */,
+				CD4190E6AEBF4D84BF4143E6 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		EFD3EEF4198640ED9ED9E9CA /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		F4C74F66DF444BCEBDF3CAC0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E89D127E18F8379900195A53 /* JPSMainViewController.h */,
+				E89D127F18F8379900195A53 /* JPSMainViewController.m */,
+				E89D128018F8379900195A53 /* JPSRemoteViewController.h */,
+				E89D128118F8379900195A53 /* JPSRemoteViewController.m */,
+				E89D128218F8379900195A53 /* JPSCameraViewController.h */,
+				E89D128318F8379900195A53 /* JPSCameraViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		021ADEE88CC54CA8A855B8DC /* remotecam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D578CA9C3E764C3B9B101435 /* Build configuration list for PBXNativeTarget "remotecam" */;
+			buildPhases = (
+				B050020B9F894F6B9C6FC086 /* Check Pods Manifest.lock */,
+				8B72EDDF931940F5BECED764 /* Sources */,
+				DD74505439564A9593F2ED9D /* Frameworks */,
+				30B11C845D98477C92958334 /* Resources */,
+				E715F90C34884BB0887BB280 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = remotecam;
+			productName = remotecam;
+			productReference = D88691B40E4940F4B4B9B989 /* remotecam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23BDCDD38879461D936F2165 /* UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43B65B95BD7420F8B2FA8DB /* Build configuration list for PBXNativeTarget "UnitTests" */;
+			buildPhases = (
+				F405C38D8E6A4A03A970E1D0 /* Sources */,
+				FCCAB2379D6545A7B6C1DC25 /* Frameworks */,
+				0410D456ED034244A08474D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A584BF4C0F644A6B8F35EF0B /* PBXTargetDependency */,
+			);
+			name = UnitTests;
+			productName = UnitTests;
+			productReference = 012F33EA2BF34E11B07D2D91 /* UnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E075C8A4FE4436E997C7FF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JPS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "JP Simard";
+			};
+			buildConfigurationList = F3D74719744146C79ADCB6C0 /* Build configuration list for PBXProject "remotecam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E687C1ABBCD644CF900DCEAC;
+			productRefGroup = 55E106B8E8784E7DA7313CD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				021ADEE88CC54CA8A855B8DC /* remotecam */,
+				23BDCDD38879461D936F2165 /* UnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0410D456ED034244A08474D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30B11C845D98477C92958334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F215D2BFF9D4AC388547D35 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B050020B9F894F6B9C6FC086 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E715F90C34884BB0887BB280 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B72EDDF931940F5BECED764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89D128518F8379900195A53 /* JPSRemoteViewController.m in Sources */,
+				0707D3E460764F1EB947B1F4 /* JPSAppDelegate.m in Sources */,
+				E89D128618F8379900195A53 /* JPSCameraViewController.m in Sources */,
+				8B49D58697DF45A6B9871324 /* main.m in Sources */,
+				E89D128418F8379900195A53 /* JPSMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F405C38D8E6A4A03A970E1D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A584BF4C0F644A6B8F35EF0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 021ADEE88CC54CA8A855B8DC /* remotecam */;
+			targetProxy = F6EED85476144706835D453A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0267815D0A384ADE85DF86F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C4C57DB65ED47D4B50175D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/remotecam.app/remotecam";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PREFIX_HEADER = "UnitTests/Resources/UnitTests-Prefix.pch";
+				INFOPLIST_FILE = "UnitTests/Resources/UnitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		113A644A083445539E8C7435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD4190E6AEBF4D84BF4143E6 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "remotecam/Resources/Other-Sources/remotecam-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "remotecam/Resources/Other-Sources/remotecam-Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		585920C287AE4E7EB1C3B5C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7947CEDF309549BC9B07EA1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/remotecam.app/remotecam";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PREFIX_HEADER = "UnitTests/Resources/UnitTests-Prefix.pch";
+				INFOPLIST_FILE = "UnitTests/Resources/UnitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		99969E61F99940218D866EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD4190E6AEBF4D84BF4143E6 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "remotecam/Resources/Other-Sources/remotecam-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "remotecam/Resources/Other-Sources/remotecam-Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C43B65B95BD7420F8B2FA8DB /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C4C57DB65ED47D4B50175D8 /* Release */,
+				7947CEDF309549BC9B07EA1C /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D578CA9C3E764C3B9B101435 /* Build configuration list for PBXNativeTarget "remotecam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99969E61F99940218D866EC4 /* Release */,
+				113A644A083445539E8C7435 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3D74719744146C79ADCB6C0 /* Build configuration list for PBXProject "remotecam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585920C287AE4E7EB1C3B5C5 /* Debug */,
+				0267815D0A384ADE85DF86F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E075C8A4FE4436E997C7FF9 /* Project object */;
+}

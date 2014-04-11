@@ -1,0 +1,17 @@
+PODS:
+  - JPSImagePickerController (0.0.1)
+  - MPCMultipeerClient (0.0.1)
+
+DEPENDENCIES:
+  - JPSImagePickerController
+  - MPCMultipeerClient (from `../`)
+
+EXTERNAL SOURCES:
+  MPCMultipeerClient:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JPSImagePickerController: 00bbd1d345b99ac258c85c5eb219dd8545c93367
+  MPCMultipeerClient: cee3febadd12de5fa37c9828619ff0bd0a9660cd
+
+COCOAPODS: 0.31.1

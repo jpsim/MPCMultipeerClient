@@ -1,0 +1,1 @@
+PODS_JPSIMAGEPICKERCONTROLLER_OTHER_LDFLAGS = -framework AVFoundation -framework MediaPlayer

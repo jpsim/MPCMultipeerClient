@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048FA309043A4995B4D2E25F /* MPCNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = BA860D97983A424394CD0590 /* MPCNotifications.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		06A8794224A448E58ED08718 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE8415C94194A1DA587FAAE /* AVFoundation.framework */; };
+		1120C114896046DC9421A43D /* JPSCameraButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 785D966B4B6C413EB4B5F295 /* JPSCameraButton.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		15A687E397FA40D3874195FB /* JPSImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A92D942FFE2344DEB7439F78 /* JPSImagePickerController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		20B4E40578AE49648FC629D1 /* MPCPeerObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DA6021A3A07489DB2226C93 /* MPCPeerObject.h */; };
+		2D962DD118BF40B696F9E44D /* MPCAdvertiser.m in Sources */ = {isa = PBXBuildFile; fileRef = 83162110BBF14398BDF115B4 /* MPCAdvertiser.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		2ED45474DCA14A49BC248D66 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6D7F694FE546A8A9B17949 /* Pods-dummy.m */; };
+		47341FC2A77D4FFC99DB7BA0 /* libPods-JPSImagePickerController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F9AAC0385B45E4B0022AE7 /* libPods-JPSImagePickerController.a */; };
+		53F9347B696D4782AD730092 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5EE9A4D2E2E4948AEE8547A /* Foundation.framework */; };
+		5AC6550B232F49D4A2829F3D /* JPSVolumeButtonHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6EDFBE03E3484C8CC8C718 /* JPSVolumeButtonHandler.h */; };
+		608EFB721BFB4D77BE51FFB5 /* MPCMultipeerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED2B47FCDB2463DB33836F8 /* MPCMultipeerClient.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		70FA9CBC7C86491D9D8C5A13 /* MPCSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B966BA7E524E8DA6DDC591 /* MPCSession.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		72CD2428C468425CAC2F31F2 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2E57EA859D481D94F30323 /* MultipeerConnectivity.framework */; };
+		7DAE8E428E664CA9BAC1FC42 /* Pods-JPSImagePickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4193E3C16D25493B98F2D857 /* Pods-JPSImagePickerController-dummy.m */; };
+		81559A8D8A324888AAA6A1F5 /* UIImage+DrawBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5E565940E446B2B4B06D96 /* UIImage+DrawBlock.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		83C400D7A0E7425BB990607F /* MPCTransceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DCD083973948F1AEE199EB /* MPCTransceiver.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		85E56B92EF4B4EF8BB97A548 /* MPCNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = 5438155AD6CF41F3A53E023A /* MPCNotifications.h */; };
+		8DBE6D6306D143B0AD00D41D /* MPCBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A78C770E2D344C7A22FA9CC /* MPCBrowser.h */; };
+		8DC6A8B3012F453EA7170DC8 /* MPCBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5C99CB27064C01B402F4B4 /* MPCBrowser.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		98F015A3E9F048CA840321EC /* MPCPeerObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9514812D5813436885BCE867 /* MPCPeerObject.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		A14231EE006D479B9997CAEA /* MPCMultipeerClient.h in Headers */ = {isa = PBXBuildFile; fileRef = D8EE2F861DCC4C29B23BFE6F /* MPCMultipeerClient.h */; };
+		A454125590CE4EE381490F2D /* UIImage+DrawBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F741FCF8944FA4A1BDC935 /* UIImage+DrawBlock.h */; };
+		A54B0A4B70DD431D98BA698E /* JPSVolumeButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A77E0E6C34425F9A579CDC /* JPSVolumeButtonHandler.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		A7694CEB800847F0A02DA369 /* MPCTransceiver.h in Headers */ = {isa = PBXBuildFile; fileRef = C206AA02EF5F4DF89FA658B6 /* MPCTransceiver.h */; };
+		AFDD2877F90A4DF984F2535B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5EE9A4D2E2E4948AEE8547A /* Foundation.framework */; };
+		B1481CA38C9D4B539A640698 /* JPSImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = F6476AC2A7FB49B891624C75 /* JPSImagePickerController.h */; };
+		B5E358F03F044D93A3D4FBE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5EE9A4D2E2E4948AEE8547A /* Foundation.framework */; };
+		D717E14E74F5448D80896434 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458AE924A60C4D80B749172A /* MediaPlayer.framework */; };
+		DA384E9F6CBC4112AD463651 /* JPSCameraButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C12652B162A4025872F67BE /* JPSCameraButton.h */; };
+		EDA6C873BB1D4696A32C15E7 /* MPCAdvertiser.h in Headers */ = {isa = PBXBuildFile; fileRef = 548714412AAF4D63AE430520 /* MPCAdvertiser.h */; };
+		EF720883033548379E404694 /* libPods-MPCMultipeerClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5CEF633B3C54082840237AB /* libPods-MPCMultipeerClient.a */; };
+		F3D9E00F922D4ACDBD485773 /* Pods-MPCMultipeerClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 433697AC58E1485BAA3075F8 /* Pods-MPCMultipeerClient-dummy.m */; };
+		FC12CDA33F2F4E1A9ABC6619 /* MPCSession.h in Headers */ = {isa = PBXBuildFile; fileRef = CE78DDB8997F4DB09A101459 /* MPCSession.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E75C7E05B284A8989A2743D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 943357FAA5C042E5A8013AA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8251302AB8F47389B01949A;
+			remoteInfo = "Pods-MPCMultipeerClient";
+		};
+		FA41224A17A54AA1BE7C293D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 943357FAA5C042E5A8013AA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FF0D5D547A94926A2DA18A4;
+			remoteInfo = "Pods-JPSImagePickerController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0482D063FE9647A4B401D2BC /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A5E565940E446B2B4B06D96 /* UIImage+DrawBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+DrawBlock.m"; path = "JPSImagePickerController/UIImage+DrawBlock.m"; sourceTree = "<group>"; };
+		1ED2B47FCDB2463DB33836F8 /* MPCMultipeerClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPCMultipeerClient.m; path = MPCMultipeerClient/MPCMultipeerClient.m; sourceTree = "<group>"; };
+		2EEFE668E6C7400790DA3DE2 /* Pods-MPCMultipeerClient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPCMultipeerClient.xcconfig"; sourceTree = "<group>"; };
+		35E3DCADBDF446508122667F /* Pods-MPCMultipeerClient-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPCMultipeerClient-Private.xcconfig"; sourceTree = "<group>"; };
+		4193E3C16D25493B98F2D857 /* Pods-JPSImagePickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JPSImagePickerController-dummy.m"; sourceTree = "<group>"; };
+		433697AC58E1485BAA3075F8 /* Pods-MPCMultipeerClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MPCMultipeerClient-dummy.m"; sourceTree = "<group>"; };
+		458AE924A60C4D80B749172A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		4B57B36C8233432D83C75B10 /* Pods-JPSImagePickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JPSImagePickerController-prefix.pch"; sourceTree = "<group>"; };
+		5438155AD6CF41F3A53E023A /* MPCNotifications.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCNotifications.h; path = MPCMultipeerClient/MPCNotifications.h; sourceTree = "<group>"; };
+		548714412AAF4D63AE430520 /* MPCAdvertiser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCAdvertiser.h; path = MPCMultipeerClient/MPCAdvertiser.h; sourceTree = "<group>"; };
+		54F3AD760B064D98B3D98C16 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		59B966BA7E524E8DA6DDC591 /* MPCSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPCSession.m; path = MPCMultipeerClient/MPCSession.m; sourceTree = "<group>"; };
+		5A78C770E2D344C7A22FA9CC /* MPCBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCBrowser.h; path = MPCMultipeerClient/MPCBrowser.h; sourceTree = "<group>"; };
+		60DCD083973948F1AEE199EB /* MPCTransceiver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPCTransceiver.m; path = MPCMultipeerClient/MPCTransceiver.m; sourceTree = "<group>"; };
+		67A77E0E6C34425F9A579CDC /* JPSVolumeButtonHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPSVolumeButtonHandler.m; path = JPSImagePickerController/JPSVolumeButtonHandler.m; sourceTree = "<group>"; };
+		6AE8415C94194A1DA587FAAE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		6DA6021A3A07489DB2226C93 /* MPCPeerObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCPeerObject.h; path = MPCMultipeerClient/MPCPeerObject.h; sourceTree = "<group>"; };
+		70800EC0CD594D35915A6A9B /* Pods-MPCMultipeerClient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MPCMultipeerClient-prefix.pch"; sourceTree = "<group>"; };
+		781383878C25494A80B773BC /* Pods-JPSImagePickerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JPSImagePickerController.xcconfig"; sourceTree = "<group>"; };
+		785D966B4B6C413EB4B5F295 /* JPSCameraButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPSCameraButton.m; path = JPSImagePickerController/JPSCameraButton.m; sourceTree = "<group>"; };
+		7AD9791BCC9642F8B093EC65 /* JPSImagePickerController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = JPSImagePickerController.bundle; path = JPSImagePickerController/JPSImagePickerController.bundle; sourceTree = "<group>"; };
+		83162110BBF14398BDF115B4 /* MPCAdvertiser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPCAdvertiser.m; path = MPCMultipeerClient/MPCAdvertiser.m; sourceTree = "<group>"; };
+		8B5C99CB27064C01B402F4B4 /* MPCBrowser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPCBrowser.m; path = MPCMultipeerClient/MPCBrowser.m; sourceTree = "<group>"; };
+		8C12652B162A4025872F67BE /* JPSCameraButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPSCameraButton.h; path = JPSImagePickerController/JPSCameraButton.h; sourceTree = "<group>"; };
+		8C6EDFBE03E3484C8CC8C718 /* JPSVolumeButtonHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPSVolumeButtonHandler.h; path = JPSImagePickerController/JPSVolumeButtonHandler.h; sourceTree = "<group>"; };
+		9514812D5813436885BCE867 /* MPCPeerObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPCPeerObject.m; path = MPCMultipeerClient/MPCPeerObject.m; sourceTree = "<group>"; };
+		96E439AA3DC549FCBB932B16 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		A22C215B257D4FE295C823A7 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = "<group>"; };
+		A92D942FFE2344DEB7439F78 /* JPSImagePickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPSImagePickerController.m; path = JPSImagePickerController/JPSImagePickerController.m; sourceTree = "<group>"; };
+		B11660AFC8F447838CFC32DE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5EE9A4D2E2E4948AEE8547A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BA860D97983A424394CD0590 /* MPCNotifications.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPCNotifications.m; path = MPCMultipeerClient/MPCNotifications.m; sourceTree = "<group>"; };
+		C0F9AAC0385B45E4B0022AE7 /* libPods-JPSImagePickerController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JPSImagePickerController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C206AA02EF5F4DF89FA658B6 /* MPCTransceiver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCTransceiver.h; path = MPCMultipeerClient/MPCTransceiver.h; sourceTree = "<group>"; };
+		C62F4327ED49476FA1525344 /* Pods-JPSImagePickerController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JPSImagePickerController-Private.xcconfig"; sourceTree = "<group>"; };
+		C9413B892C134516A3E017B3 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CA6D7F694FE546A8A9B17949 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		CE78DDB8997F4DB09A101459 /* MPCSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCSession.h; path = MPCMultipeerClient/MPCSession.h; sourceTree = "<group>"; };
+		D8EE2F861DCC4C29B23BFE6F /* MPCMultipeerClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCMultipeerClient.h; path = MPCMultipeerClient/MPCMultipeerClient.h; sourceTree = "<group>"; };
+		E120AC20E32843759474780F /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		E1F741FCF8944FA4A1BDC935 /* UIImage+DrawBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+DrawBlock.h"; path = "JPSImagePickerController/UIImage+DrawBlock.h"; sourceTree = "<group>"; };
+		E5CEF633B3C54082840237AB /* libPods-MPCMultipeerClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MPCMultipeerClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED2E57EA859D481D94F30323 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		F6476AC2A7FB49B891624C75 /* JPSImagePickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPSImagePickerController.h; path = JPSImagePickerController/JPSImagePickerController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60CD313B6309412FADB00871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F9347B696D4782AD730092 /* Foundation.framework in Frameworks */,
+				47341FC2A77D4FFC99DB7BA0 /* libPods-JPSImagePickerController.a in Frameworks */,
+				EF720883033548379E404694 /* libPods-MPCMultipeerClient.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FED5A34D8BC4C1EB90B1966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E358F03F044D93A3D4FBE4 /* Foundation.framework in Frameworks */,
+				72CD2428C468425CAC2F31F2 /* MultipeerConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB450F5DB9364F468FD2456D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06A8794224A448E58ED08718 /* AVFoundation.framework in Frameworks */,
+				AFDD2877F90A4DF984F2535B /* Foundation.framework in Frameworks */,
+				D717E14E74F5448D80896434 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		117B5E792BE94438A37246BF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74F3ACCC75184DE2814AAD19 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1761A27324EB4C8E913A1021 /* MPCMultipeerClient */ = {
+			isa = PBXGroup;
+			children = (
+				548714412AAF4D63AE430520 /* MPCAdvertiser.h */,
+				83162110BBF14398BDF115B4 /* MPCAdvertiser.m */,
+				5A78C770E2D344C7A22FA9CC /* MPCBrowser.h */,
+				8B5C99CB27064C01B402F4B4 /* MPCBrowser.m */,
+				D8EE2F861DCC4C29B23BFE6F /* MPCMultipeerClient.h */,
+				1ED2B47FCDB2463DB33836F8 /* MPCMultipeerClient.m */,
+				5438155AD6CF41F3A53E023A /* MPCNotifications.h */,
+				BA860D97983A424394CD0590 /* MPCNotifications.m */,
+				6DA6021A3A07489DB2226C93 /* MPCPeerObject.h */,
+				9514812D5813436885BCE867 /* MPCPeerObject.m */,
+				CE78DDB8997F4DB09A101459 /* MPCSession.h */,
+				59B966BA7E524E8DA6DDC591 /* MPCSession.m */,
+				C206AA02EF5F4DF89FA658B6 /* MPCTransceiver.h */,
+				60DCD083973948F1AEE199EB /* MPCTransceiver.m */,
+				4BCAC93CF5484865A4F3157E /* Support Files */,
+			);
+			name = MPCMultipeerClient;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		19EF1A872F954E5294A1CC10 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7AD9791BCC9642F8B093EC65 /* JPSImagePickerController.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1B30370D6E3E4203B540C9BD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1761A27324EB4C8E913A1021 /* MPCMultipeerClient */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		25EC66AA61D8498D92D252F4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6AE8415C94194A1DA587FAAE /* AVFoundation.framework */,
+				B5EE9A4D2E2E4948AEE8547A /* Foundation.framework */,
+				458AE924A60C4D80B749172A /* MediaPlayer.framework */,
+				ED2E57EA859D481D94F30323 /* MultipeerConnectivity.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		366954FD9A3347189CA7EC76 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				781383878C25494A80B773BC /* Pods-JPSImagePickerController.xcconfig */,
+				C62F4327ED49476FA1525344 /* Pods-JPSImagePickerController-Private.xcconfig */,
+				4193E3C16D25493B98F2D857 /* Pods-JPSImagePickerController-dummy.m */,
+				4B57B36C8233432D83C75B10 /* Pods-JPSImagePickerController-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		3D207137D6E34C52B33B3CEF /* JPSImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				8C12652B162A4025872F67BE /* JPSCameraButton.h */,
+				785D966B4B6C413EB4B5F295 /* JPSCameraButton.m */,
+				F6476AC2A7FB49B891624C75 /* JPSImagePickerController.h */,
+				A92D942FFE2344DEB7439F78 /* JPSImagePickerController.m */,
+				8C6EDFBE03E3484C8CC8C718 /* JPSVolumeButtonHandler.h */,
+				67A77E0E6C34425F9A579CDC /* JPSVolumeButtonHandler.m */,
+				E1F741FCF8944FA4A1BDC935 /* UIImage+DrawBlock.h */,
+				0A5E565940E446B2B4B06D96 /* UIImage+DrawBlock.m */,
+				19EF1A872F954E5294A1CC10 /* Resources */,
+				366954FD9A3347189CA7EC76 /* Support Files */,
+			);
+			path = JPSImagePickerController;
+			sourceTree = "<group>";
+		};
+		4BCAC93CF5484865A4F3157E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EEFE668E6C7400790DA3DE2 /* Pods-MPCMultipeerClient.xcconfig */,
+				35E3DCADBDF446508122667F /* Pods-MPCMultipeerClient-Private.xcconfig */,
+				433697AC58E1485BAA3075F8 /* Pods-MPCMultipeerClient-dummy.m */,
+				70800EC0CD594D35915A6A9B /* Pods-MPCMultipeerClient-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		7469BAE19472445897781755 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25EC66AA61D8498D92D252F4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74F3ACCC75184DE2814AAD19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A22C215B257D4FE295C823A7 /* Pods.xcconfig */,
+				54F3AD760B064D98B3D98C16 /* Pods-acknowledgements.markdown */,
+				0482D063FE9647A4B401D2BC /* Pods-acknowledgements.plist */,
+				CA6D7F694FE546A8A9B17949 /* Pods-dummy.m */,
+				96E439AA3DC549FCBB932B16 /* Pods-environment.h */,
+				E120AC20E32843759474780F /* Pods-resources.sh */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		94A5201067924DA99062E7D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D207137D6E34C52B33B3CEF /* JPSImagePickerController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A4D38630BB9D40D2B25D1458 = {
+			isa = PBXGroup;
+			children = (
+				C9413B892C134516A3E017B3 /* Podfile */,
+				1B30370D6E3E4203B540C9BD /* Development Pods */,
+				7469BAE19472445897781755 /* Frameworks */,
+				94A5201067924DA99062E7D7 /* Pods */,
+				BEF0B21F9AF24F97B84A5C88 /* Products */,
+				117B5E792BE94438A37246BF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BEF0B21F9AF24F97B84A5C88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B11660AFC8F447838CFC32DE /* libPods.a */,
+				C0F9AAC0385B45E4B0022AE7 /* libPods-JPSImagePickerController.a */,
+				E5CEF633B3C54082840237AB /* libPods-MPCMultipeerClient.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0132C07ECC56419793A45118 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA384E9F6CBC4112AD463651 /* JPSCameraButton.h in Headers */,
+				B1481CA38C9D4B539A640698 /* JPSImagePickerController.h in Headers */,
+				5AC6550B232F49D4A2829F3D /* JPSVolumeButtonHandler.h in Headers */,
+				A454125590CE4EE381490F2D /* UIImage+DrawBlock.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124331BD176D4EA1BE7534A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA6C873BB1D4696A32C15E7 /* MPCAdvertiser.h in Headers */,
+				8DBE6D6306D143B0AD00D41D /* MPCBrowser.h in Headers */,
+				A14231EE006D479B9997CAEA /* MPCMultipeerClient.h in Headers */,
+				85E56B92EF4B4EF8BB97A548 /* MPCNotifications.h in Headers */,
+				20B4E40578AE49648FC629D1 /* MPCPeerObject.h in Headers */,
+				FC12CDA33F2F4E1A9ABC6619 /* MPCSession.h in Headers */,
+				A7694CEB800847F0A02DA369 /* MPCTransceiver.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09B6708C95504B2D91FCCA27 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07CA87DC8E64818BD708D29 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				87DEB4DDC4004221A40AACCE /* Sources */,
+				60CD313B6309412FADB00871 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FABEE688CA446E093FF3492 /* PBXTargetDependency */,
+				9D5C71F24D8340C598DC9D8D /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = B11660AFC8F447838CFC32DE /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2FF0D5D547A94926A2DA18A4 /* Pods-JPSImagePickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1D0B2C66E0A43EEB3E23245 /* Build configuration list for PBXNativeTarget "Pods-JPSImagePickerController" */;
+			buildPhases = (
+				0E3C959440904D9F99159240 /* Sources */,
+				EB450F5DB9364F468FD2456D /* Frameworks */,
+				0132C07ECC56419793A45118 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JPSImagePickerController";
+			productName = "Pods-JPSImagePickerController";
+			productReference = C0F9AAC0385B45E4B0022AE7 /* libPods-JPSImagePickerController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A8251302AB8F47389B01949A /* Pods-MPCMultipeerClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A56067BD9EF48EEAE45905F /* Build configuration list for PBXNativeTarget "Pods-MPCMultipeerClient" */;
+			buildPhases = (
+				5F6B91DD5B7C4F79A637E9C4 /* Sources */,
+				6FED5A34D8BC4C1EB90B1966 /* Frameworks */,
+				124331BD176D4EA1BE7534A2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MPCMultipeerClient";
+			productName = "Pods-MPCMultipeerClient";
+			productReference = E5CEF633B3C54082840237AB /* libPods-MPCMultipeerClient.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		943357FAA5C042E5A8013AA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 38202B58AB7941FF9B90CFD7 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A4D38630BB9D40D2B25D1458;
+			productRefGroup = BEF0B21F9AF24F97B84A5C88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09B6708C95504B2D91FCCA27 /* Pods */,
+				2FF0D5D547A94926A2DA18A4 /* Pods-JPSImagePickerController */,
+				A8251302AB8F47389B01949A /* Pods-MPCMultipeerClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E3C959440904D9F99159240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1120C114896046DC9421A43D /* JPSCameraButton.m in Sources */,
+				15A687E397FA40D3874195FB /* JPSImagePickerController.m in Sources */,
+				A54B0A4B70DD431D98BA698E /* JPSVolumeButtonHandler.m in Sources */,
+				7DAE8E428E664CA9BAC1FC42 /* Pods-JPSImagePickerController-dummy.m in Sources */,
+				81559A8D8A324888AAA6A1F5 /* UIImage+DrawBlock.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6B91DD5B7C4F79A637E9C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D962DD118BF40B696F9E44D /* MPCAdvertiser.m in Sources */,
+				8DC6A8B3012F453EA7170DC8 /* MPCBrowser.m in Sources */,
+				608EFB721BFB4D77BE51FFB5 /* MPCMultipeerClient.m in Sources */,
+				048FA309043A4995B4D2E25F /* MPCNotifications.m in Sources */,
+				98F015A3E9F048CA840321EC /* MPCPeerObject.m in Sources */,
+				70FA9CBC7C86491D9D8C5A13 /* MPCSession.m in Sources */,
+				83C400D7A0E7425BB990607F /* MPCTransceiver.m in Sources */,
+				F3D9E00F922D4ACDBD485773 /* Pods-MPCMultipeerClient-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87DEB4DDC4004221A40AACCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED45474DCA14A49BC248D66 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FABEE688CA446E093FF3492 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FF0D5D547A94926A2DA18A4 /* Pods-JPSImagePickerController */;
+			targetProxy = FA41224A17A54AA1BE7C293D /* PBXContainerItemProxy */;
+		};
+		9D5C71F24D8340C598DC9D8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8251302AB8F47389B01949A /* Pods-MPCMultipeerClient */;
+			targetProxy = 4E75C7E05B284A8989A2743D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02D4C65E3BEB413C8D1998C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		72F8037EAC26408683C091FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C62F4327ED49476FA1525344 /* Pods-JPSImagePickerController-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-JPSImagePickerController-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7CE0EEDC597C40878823E391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35E3DCADBDF446508122667F /* Pods-MPCMultipeerClient-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-MPCMultipeerClient-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		933B1BBAB5E64FCBA6515759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35E3DCADBDF446508122667F /* Pods-MPCMultipeerClient-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-MPCMultipeerClient-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		98C511F7BCB64997A530E8C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C62F4327ED49476FA1525344 /* Pods-JPSImagePickerController-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-JPSImagePickerController-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD56EE10464D482A9FDFEB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A22C215B257D4FE295C823A7 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B3401F5A1A1E4F0FBF4CFD38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A22C215B257D4FE295C823A7 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D407408CD9244220966A13C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A56067BD9EF48EEAE45905F /* Build configuration list for PBXNativeTarget "Pods-MPCMultipeerClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				933B1BBAB5E64FCBA6515759 /* Debug */,
+				7CE0EEDC597C40878823E391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38202B58AB7941FF9B90CFD7 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D4C65E3BEB413C8D1998C8 /* Debug */,
+				D407408CD9244220966A13C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07CA87DC8E64818BD708D29 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD56EE10464D482A9FDFEB88 /* Debug */,
+				B3401F5A1A1E4F0FBF4CFD38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1D0B2C66E0A43EEB3E23245 /* Build configuration list for PBXNativeTarget "Pods-JPSImagePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F8037EAC26408683C091FD /* Debug */,
+				98C511F7BCB64997A530E8C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 943357FAA5C042E5A8013AA1 /* Project object */;
+}
